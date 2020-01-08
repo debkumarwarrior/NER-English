@@ -1,0 +1,121 @@
+==================================================
+==================================================
+ [*] Checkpoint path: logs01\NER_2020-01-08_23-04-23\model.ckpt
+ [*] Loading training data from: ..\data
+ [*] Using model: logs01\NER_2020-01-08_23-04-23
+Hyperparameters:
+  cap_dim: 25
+  dropout: 0.5
+  lr_method: sgd-lr_.005
+  word_dim: 100
+  word_lstm_dim: 100
+Tag count : 21
+Token count : 15398
+Cap Features count : 4
+PAD index : 0
+No. of trainable variables : 1724921
+-------------------- Starting new training --------------------
+-------------------- Epoch 1--------------------
+[Step : 100] loss : 1.309059
+-------------------- Epoch 2--------------------
+[Step : 200] loss : 0.848959
+[Step : 300] loss : 0.541196
+-------------------- Epoch 3--------------------
+[Step : 400] loss : 0.485715
+[Step : 500] loss : 0.363344
+-------------------- Epoch 4--------------------
+[Step : 600] loss : 0.247358
+[Step : 700] loss : 0.206016
+-------------------- Epoch 5--------------------
+[Step : 800] loss : 0.212842
+[Step : 900] loss : 0.185238
+Train data evaluation
+processed 105778 tokens with 4489 phrases; found: 4368 phrases; correct: 3746.
+
+precision:  85.76%; recall:  83.45%; F1:  84.59
+
+Validation data evaluation:
+processed 12836 tokens with 537 phrases; found: 418 phrases; correct: 184.
+
+precision:  44.02%; recall:  34.26%; F1:  38.53
+
+-------------------- Epoch 6--------------------
+[Step : 1000] loss : 0.179170
+-------------------- Epoch 7--------------------
+[Step : 1100] loss : 0.179618
+[Step : 1200] loss : 0.156211
+-------------------- Epoch 8--------------------
+[Step : 1300] loss : 0.143832
+[Step : 1400] loss : 0.118860
+-------------------- Epoch 9--------------------
+[Step : 1500] loss : 0.123859
+[Step : 1600] loss : 0.118809
+-------------------- Epoch 10--------------------
+[Step : 1700] loss : 0.114901
+[Step : 1800] loss : 0.111021
+Saving checkpoint to : logs01\NER_2020-01-08_23-04-23\model.ckpt-10
+Train data evaluation
+processed 105778 tokens with 4489 phrases; found: 4462 phrases; correct: 4177.
+
+precision:  93.61%; recall:  93.05%; F1:  93.33
+
+Validation data evaluation:
+processed 12836 tokens with 537 phrases; found: 465 phrases; correct: 200.
+
+precision:  43.01%; recall:  37.24%; F1:  39.92
+
+-------------------- Training completed! --------------------
+Training data evaluation:
+processed 105778 tokens with 4489 phrases; found: 4462 phrases; correct: 4177.
+
+precision:  93.61%; recall:  93.05%; F1:  93.33
+
+	     company: precision:   94.57%; recall:   94.87%; F1:   94.72; predicted:   645
+
+	    facility: precision:   91.38%; recall:   94.59%; F1:   92.96; predicted:   325
+
+	     geo-loc: precision:   95.01%; recall:   95.68%; F1:   95.35; predicted:  1003
+
+	       movie: precision:   79.69%; recall:   75.00%; F1:   77.27; predicted:    64
+
+	 musicartist: precision:   93.04%; recall:   92.24%; F1:   92.64; predicted:   230
+
+	       other: precision:   91.41%; recall:   88.51%; F1:   89.93; predicted:   733
+
+	      person: precision:   96.85%; recall:   97.29%; F1:   97.07; predicted:   890
+
+	     product: precision:   93.89%; recall:   91.82%; F1:   92.85; predicted:   311
+
+	  sportsteam: precision:   91.87%; recall:   88.48%; F1:   90.14; predicted:   209
+
+	      tvshow: precision:   69.23%; recall:   62.07%; F1:   65.45; predicted:    52
+
+Validation data evaluation:
+processed 12836 tokens with 537 phrases; found: 465 phrases; correct: 200.
+
+precision:  43.01%; recall:  37.24%; F1:  39.92
+
+	     company: precision:   57.78%; recall:   50.00%; F1:   53.61; predicted:    90
+
+	    facility: precision:   39.39%; recall:   38.24%; F1:   38.81; predicted:    33
+
+	     geo-loc: precision:   61.39%; recall:   54.87%; F1:   57.94; predicted:   101
+
+	       movie: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     9
+
+	 musicartist: precision:   27.78%; recall:   17.86%; F1:   21.74; predicted:    18
+
+	       other: precision:   25.68%; recall:   23.46%; F1:   24.52; predicted:    74
+
+	      person: precision:   51.90%; recall:   36.61%; F1:   42.93; predicted:    79
+
+	     product: precision:   12.00%; recall:    8.82%; F1:   10.17; predicted:    25
+
+	  sportsteam: precision:   14.71%; recall:   25.00%; F1:   18.52; predicted:    34
+
+	      tvshow: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     2
+
+Training data evaluation:
+processed 13258 tokens with 604 phrases; found: 484 phrases; correct: 241.
+
+precision:  49.79%; recall:  39.90%; F1:  44.30

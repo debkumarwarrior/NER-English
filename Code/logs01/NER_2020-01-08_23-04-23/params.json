@@ -1,0 +1,7 @@
+{
+    "cap_dim": 25,
+    "dropout": 0.5,
+    "lr_method": "sgd-lr_.005",
+    "word_dim": 100,
+    "word_lstm_dim": 100
+}
