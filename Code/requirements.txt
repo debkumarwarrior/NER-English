@@ -6,4 +6,4 @@ numpy==1.14.3
 scipy
 tqdm==4.11.2
 Unidecode==0.4.20
-tensorflow==1.15.0
+tensorflow==1.15.4
